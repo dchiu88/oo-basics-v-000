@@ -10,7 +10,7 @@ class Shoe
         if  !(BRANDS.include?(brands)) then
           BRANDS << brands
         end
-  
+
   end
   def cobble
     self.condition = "new"
@@ -23,4 +23,3 @@ end
       # end
 my_shoe=Shoe.new(brands)
 # my_shoe.length
-
